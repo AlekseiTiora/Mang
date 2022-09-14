@@ -8,5 +8,9 @@ namespace Mang
 {
     internal class Mang
     {
+        static void Main()
+        {
+
+        }
     }
 }

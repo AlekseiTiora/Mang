@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mang
 {
-    class Ese : Entity
+    class Ese : Uksus
     {
         int punktideArv;
         string nimetus;
@@ -17,7 +17,7 @@ namespace Mang
             this.nimetus = nimetus;
         }
         
-        public int PunktideArv() { return punktideArv; }
-        public string info() { return nimetus; }   
+        public int PunktideArv() { return punktideArv; }// возращает кол-во строчек
+        public string info() { return nimetus; }   //возрящет имя
     }
 }

@@ -1,2 +1,4 @@
-﻿#if// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Mang;
+Tegelane test = new Tegelane("Aleksei");
+test.info();
+Console.WriteLine("m");
